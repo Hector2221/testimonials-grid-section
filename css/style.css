@@ -199,4 +199,34 @@ p{
         height: 100%;
     }
   }
-  
+  @media all and (max-width: 568px) { 
+    .disk-grid{
+        grid-template-columns: repeat(1,255px);
+        grid-template-rows: repeat(5, min-content);
+    }
+    .item1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .item2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .item3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .item4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .item5{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .comillas{
+        position: absolute;
+        left: 100px;
+        top: 10px;
+    }
+  }
